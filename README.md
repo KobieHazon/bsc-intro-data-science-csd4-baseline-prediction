@@ -28,12 +28,16 @@ My submitted answers:
 
 ## Notes
 
-- The large course image dataset is not tracked; the original notebook downloads the dataset from the course URL.
+- The image dataset is supplied separately. The runnable notebook uses a local dataset directory.
 
-## Validate
+## Run
 
-```bash
-python3 scripts/check_notebooks.py
+Supply the extracted `ebay_boys_girls_shirts` course dataset:
+
+```sh
+uv run --python 3.11 python scripts/run_notebook.py /path/to/ebay_boys_girls_shirts
 ```
 
-This check verifies that notebooks parse as JSON and that the removed student identifier does not remain in tracked text files.
+This runs every solution code cell using 64 training images and 32 test images per class. It fits and evaluates all three logistic-regression models, checks probabilities and confusion matrices, renders plots, and exports calculated answers.
+
+Add `--full` to use 2,000 training images per class and 500 test images per class. Use `--output-dir PATH` to keep generated plots and CSVs; otherwise they are temporary. Submitted files are never overwritten. For interactive use, set `SHIRTS_DATASET` before opening the solution notebook.
