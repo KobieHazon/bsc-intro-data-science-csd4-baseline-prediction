@@ -1,16 +1,12 @@
 # BSc Intro Data Science - CSD4 Baseline Prediction
 
-A historical archive of my CS BSc coursework.
+- Course: BSc Computer Science.
+- Available copy: 2019.
+- Supplied exercise material is identified separately below.
 
 ## Contents
 
 Image-classification baseline coursework using feature extraction, logistic regression, and evaluation metrics.
-
-## Provenance
-
-- Era: CS BSc.
-- Last recovered work: 2019 archive copy.
-- Supplied exercise material is identified separately below.
 
 ## Files
 
