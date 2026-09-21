@@ -1,8 +1,6 @@
 # BSc Intro Data Science - CSD4 Baseline Prediction
 
 - Course: BSc Computer Science.
-- Available copy: 2019.
-- Supplied exercise material is identified separately below.
 
 ## Contents
 
@@ -27,10 +25,6 @@ My submitted answers:
 - Python notebooks.
 - Main Python packages: matplotlib, numpy, pandas, requests, scikit-image, scikit-learn, notebook.
 - Jupyter-compatible local review flow.
-
-## Dataset Notes
-
-The original course folders for several data-science assignments contained the large `ebay_boys_girls_shirts` image dataset and tarball. Those files are not tracked in this repository. The recovered notebooks reference the course download URL and recreate the dataset folder when that URL is still available.
 
 ## Notes
 
